@@ -1,7 +1,7 @@
-﻿using Pattern.Strategy.Sispag.Instrucoes.Interfaces;
-using Pattern.Strategy.Sispag.Processamentos.Interfaces;
+﻿using Pattern.Strategy.Pagamentos.Instrucoes.Interfaces;
+using Pattern.Strategy.Pagamentos.Processamentos.Interfaces;
 
-namespace Pattern.Strategy.Sispag.Processamentos.Base
+namespace Pattern.Strategy.Pagamentos.Processamentos.Base
 {
     public class ProcessamentoCadastro : IProcessamentoCadastro
     {

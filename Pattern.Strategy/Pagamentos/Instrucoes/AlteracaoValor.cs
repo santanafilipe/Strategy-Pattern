@@ -1,6 +1,6 @@
-﻿using Pattern.Strategy.Sispag.Instrucoes.Interfaces;
+﻿using Pattern.Strategy.Pagamentos.Instrucoes.Interfaces;
 
-namespace Pattern.Strategy.Sispag.Instrucoes
+namespace Pattern.Strategy.Pagamentos.Instrucoes
 {
     public class AlteracaoValor : IInstrucaoMovimento
     {

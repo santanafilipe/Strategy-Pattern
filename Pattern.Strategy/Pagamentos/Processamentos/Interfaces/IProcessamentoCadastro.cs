@@ -1,4 +1,4 @@
-﻿namespace Pattern.Strategy.Sispag.Processamentos.Interfaces
+﻿namespace Pattern.Strategy.Pagamentos.Processamentos.Interfaces
 {
     public interface IProcessamentoCadastro
     {

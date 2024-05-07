@@ -1,11 +1,11 @@
-﻿using Pattern.Strategy.Sispag.Processamentos.Interfaces;
-using Pattern.Strategy.Sispag.Strategy.Processamentos;
-using Instrucoes = Pattern.Strategy.Sispag.Instrucoes;
+﻿using Pattern.Strategy.Pagamentos.Processamentos.Interfaces;
+using Pattern.Strategy.Pagamentos.Strategy.Processamentos;
+using Instrucoes = Pattern.Strategy.Pagamentos.Instrucoes;
 
 namespace Pattern.StrategyTests;
 
-[Collection("Sispag.StrategyTests")]
-public class SispagStrategyTests
+[Collection("Pagamentos.StrategyTests")]
+public class PagamentosStrategyTests
 {
     [Fact]
     public void ShouldReturnIInstrucaoMovimento()

@@ -1,7 +1,7 @@
-﻿using Pattern.Strategy.Sispag.Instrucoes.Interfaces;
-using Pattern.Strategy.Sispag.Processamentos.Base;
+﻿using Pattern.Strategy.Pagamentos.Instrucoes.Interfaces;
+using Pattern.Strategy.Pagamentos.Processamentos.Base;
 
-namespace Pattern.Strategy.Sispag.Strategy.Processamentos
+namespace Pattern.Strategy.Pagamentos.Strategy.Processamentos
 {
     public class Inclusao : ProcessamentoCadastro
     {
