@@ -4,6 +4,6 @@ namespace Pattern.Strategy.Pagamentos.Instrucoes
 {
     public class AlteracaoBloqueadoParaLiberado : IInstrucaoMovimento
     {
-        public string EfetuarCadastro() => "Alterando o status de Bloqueado para LIberado.";
+        public string EfetuarCadastro() => "Alterando o status de Bloqueado para Liberado.";
     }
 }
